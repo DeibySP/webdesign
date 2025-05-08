@@ -1,0 +1,23 @@
+main{
+    background: red;
+    padding: 16px;
+}
+section{
+    background: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    background: white;
+    width: 46%;
+    height: 100px;
+}
+section, article{
+    border: solid brown;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+#todo{
+    width: 100%;
+}
