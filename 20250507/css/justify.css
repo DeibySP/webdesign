@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    background: yellow;
+}
+article{
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+section, article{
+    border: solid 2rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}

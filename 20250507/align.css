@@ -1,0 +1,69 @@
+main{
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section{
+    background: blue;
+    display: flex;
+    height: 18rem;
+}
+article{
+    width: 100px;
+    background: white;
+    text-align: center;
+}
+section, article{
+    border: 5px solid black;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.peque{
+    height: 5rem;
+}
+.medium{
+    height: 7rem;
+}
+.grande{
+    height: 9rem;
+}
+.largo{
+    height: 14rem;
+}
+
+#start{
+    align-items: flex-start;
+}
+#end{
+    align-items: end;
+    justify-content: ;
+}
+#center{
+    align-items: center;
+}
+#stretch{
+    align-items: stretch;
+}
+#baseline{
+    align-items: baseline;
+}
+
+#p{
+    font-size: 1rem;
+}
+#l{
+    font-size: 4rem;
+}
+#g{
+    font-size: 3rem;
+}
+#m{
+    font-size: 2rem;
+}
+
+#baseline article{
+    align-items: center;
+    width: 270px;
+}
+
