@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: purple;
+    padding: 1rem;
+}
+section{
+    display: flex ;
+    background-color: purple;
+    flex-wrap: wrap;
+}
+article{
+    background-color: bisque;
+    border: dotted 3px;
+    width: 200px;
+    height: 100px;
+    flex-grow: 1;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section, article{
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid 5px black;
+}
+.A{
+    flex-grow: 1;
+}
+.C{
+    flex-grow: 3;
+}
+.D{
+    flex-grow: 4;
+}
