@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: violet;
+    display: flex;
+    flex-wrap: wrap;
+}
+section{
+    background: purple;
+    width: 500px;
+    flex-wrap: wrap;
+}
+article{
+    background: orange;
+    width: 100px;
+    height: 100px;
+    padding: 1rem;
+    font-size: 3rem;
+}
+section,article{
+    margin: 1rem;
+    border: solid 3px black;
+    border-radius: 1rem;
+    display: flex;
+}
+#s_row{
+    flex-direction: row;
+}
+#s_rowrev{
+    flex-direction: row-reverse;
+}
+#column{
+    flex-direction: column;
+    height: 450px;
+}
+#columnrev{
+    flex-direction: column-reverse;
+    height: 450px;
+}
