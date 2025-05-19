@@ -12,3 +12,10 @@ section, article{
     margin: 1rem;
     border-radius: 1rem;
 }
+#izq{justify-content: flex-start;}
+#der{justify-content: end;}
+#center{justify-content: center;}
+#between{justify-content: space-between;}
+#around{justify-content: space-around;}
+#evenly{justify-content: space-evenly;}
+

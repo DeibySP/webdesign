@@ -37,7 +37,7 @@ aside a:hover{
     background-color: rgb(0, 225, 255);
 }
 main{
-    padding: 1rem;
+    padding: 5rem;
     background: hsl(286, 85%, 74%);
     border: solid black 3px;
     
@@ -47,6 +47,7 @@ section{
     width: auto;
     padding: 2rem;
     gap: 5%;
+    justify-content: center;
 }
 article{
     border: solid black;
