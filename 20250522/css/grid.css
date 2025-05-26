@@ -27,6 +27,7 @@ nav a{
     color: black;
     border: black solid 3px;
     height: 60px;
+    border-radius: 1rem;
 }
 nav a:hover{
     background: grey;
