@@ -1,0 +1,32 @@
+header, main, aside, footer{
+    border: black solid 3px ;
+    border-radius: 1rem;
+}
+header nav{visibility: unset; font-size: 2rem; margin: 1rem;}
+nav{visibility: hidden;}
+main{background: blue;height: 350px;}
+header{background: purple; height:200px}
+aside{background: red; height: 50px;}
+footer{background: grey;height: 100px;}
+
+@media screen and (max-width:480px){
+    body{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    }
+    header, footer,nav{
+        grid-column: 1/-1;
+    }
+    header nav, #izq{visibility: hidden;}
+    nav{visibility: unset; height: 50px; background: gray;border: solid black 2px; border-radius: 1rem;}
+    aside{height: unset; min-width: 200px;}
+    main{grid-column: 1/2;}
+}
+@media screen and (max-width:30rem){
+    body{display: flex; flex-wrap: wrap;}
+    #izq{visibility: unset; border: 3px solid black; height: unset;}
+    header, footer {width: 100%;}
+    main{flex-grow: 3;}
+    aside{flex-grow: 1; min-width: 200px;}
+    nav{visibility: hidden; border: 0;}
+}
