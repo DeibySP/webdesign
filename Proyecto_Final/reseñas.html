@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reseñas.css">
+</head>
+<body>
+    <main>
+        <section class="reseñas">
+  <h2>Deja tu reseña</h2>
+  <form action="/enviar-reseña" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="calificacion">Calificación:</label><br>
+            <select id="calificacion" name="calificacion" required>
+                <option value="">Selecciona</option>
+                <option value="5">5 - Excelente</option>
+                <option value="4">4 - Muy bueno</option>
+                <option value="3">3 - Bueno</option>
+                <option value="2">2 - Regular</option>
+                <option value="1">1 - Malo</option>
+        </select><br><br>
+
+    <label for="comentario">Comentario:</label><br>
+    <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+
+    <button type="submit">Enviar reseña</button>
+  </form>
+</section>
+
+    </main>
+</body>
+</html>

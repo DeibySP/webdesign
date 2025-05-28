@@ -112,6 +112,13 @@
     article p {
       color: #aaa;
     }
+    aside {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 250px;
+    }
+
 
     footer {
       background-color: #000;
