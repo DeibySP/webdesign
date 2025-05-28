@@ -1,18 +1,7 @@
-* {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-    }
-
-    body {
-      background-color: #111;
-      color: #fff;
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-    }
-
-    header {
+*{box-sizing: border-box; padding: 0; margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
       background-color: #22221e;
       padding: 10px 20px;
       display: grid;
@@ -50,15 +39,13 @@
       align-items: center;
       gap: 10px;
     }
-
-    
-
     main {
       display: grid;
       gap: 40px;
       padding: 40px 20px;
       justify-items: center;
       text-align: center;
+      background: #222;
     }
 
     main h2 {
@@ -67,13 +54,17 @@
 
     main p {
       font-size: 1.2rem;
-      color: #ccc;
+      color: #ffffff;
       margin-top: 20px;
     }
 
     section {
       width: 90%;
       margin: auto;
+
+    }
+    h2{
+        color: white;
     }
 
     .hero {
@@ -104,7 +95,9 @@
       display: grid;
       gap: 10px;
     }
-
+    article img{
+        justify-items: center;
+    }
     article h3 {
       color: #fff;
     }
@@ -112,14 +105,9 @@
     article p {
       color: #aaa;
     }
-
-    footer {
-      background-color: #000;
-      text-align: center;
-      padding: 20px;
-      border-top: 1px solid #444;
-    }
-
-    footer p {
-      color: #666;
-    }
+    .sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px;
+  margin-top: 20px;
+}
