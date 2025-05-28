@@ -1,3 +1,5 @@
+*{box-sizing: border-box; padding: 0; margin: 0;
+font-family: 'Montserrat',sans-serif;}
 header {
       background-color: #22221e;
       padding: 10px 20px;
@@ -37,7 +39,6 @@ header {
       gap: 10px;
     }
 
-    /* Main */
     main {
       display: grid;
       grid-template-columns: 1fr 300px;
@@ -56,8 +57,6 @@ header {
       color: white;
       margin-bottom: 20px;
     }
-
-    /* Formulario Reseñas */
     .reseñas {
       max-width: 500px;
       width: 100%;
@@ -86,8 +85,8 @@ header {
       margin-top: 12px;
     }
 
-    .reseñas input[type="text"],
-    .reseñas input[type="email"],
+    .reseñas input,
+    .reseñas input,
     .reseñas select,
     .reseñas textarea {
       width: 100%;
@@ -99,20 +98,18 @@ header {
       color: #eee;
       font-size: 1rem;
       transition: border-color 0.3s;
-      resize: vertical;
     }
 
-    .reseñas input[type="text"]:focus,
-    .reseñas input[type="email"]:focus,
-    .reseñas select:focus,
-    .reseñas textarea:focus {
-      border-color: #4caf50;
-      outline: none;
+    .reseñas input,
+    .reseñas input,
+    .reseñas select,
+    .reseñas textarea {
+      border: #000000 solid 1px;
       background-color: #222;
       color: #fff;
     }
 
-    .reseñas button {
+    .reseñas a {
       width: 100%;
       background-color: #4caf50;
       color: white;
@@ -121,9 +118,9 @@ header {
       font-weight: 700;
       border: none;
       border-radius: 10px;
-      cursor: pointer;
       margin-top: 20px;
       transition: background-color 0.3s;
+      text-decoration: none;
     }
 
     .reseñas button:hover {

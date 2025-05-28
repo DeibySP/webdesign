@@ -3,14 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reseñas</title>
     <link rel="stylesheet" href="./css/reseñas.css">
 </head>
 <body>
+    <header>
+        <section class="logo">
+            <img src="./assets/tasts.png" alt="Logo Taste Odyssey">
+            <nav>
+                <a href="./index.html">Inicio</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./reseñas.html">Reseñas</a>
+            </nav>
+        </section>
+  </header>
     <main>
         <section class="reseñas">
-  <h2>Deja tu reseña</h2>
-  <form action="/enviar-reseña" method="POST">
+  <h2>Dejanos tu reseña</h2>
+  <form action="/enviar-reseña">
     <label for="nombre">Nombre:</label><br>
     <input type="text" id="nombre" name="nombre" required><br><br>
 
@@ -22,13 +32,13 @@
                 <option value="3">3 - Bueno</option>
                 <option value="2">2 - Regular</option>
                 <option value="1">1 - Malo</option>
-        </select><br><br>
+            </select><br><br>
 
-    <label for="comentario">Comentario:</label><br>
-    <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+        <label for="comentario">Comentario:</label><br>
+        <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
 
-    <button type="submit">Enviar reseña</button>
-  </form>
+        <a href="./index.html">Enviar Reseña</a>
+    </form>
 </section>
 
     </main>
