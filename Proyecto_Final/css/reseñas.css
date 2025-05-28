@@ -126,3 +126,44 @@ header {
     .reseñas button:hover {
       background-color: #3b8e40;
     }
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #444;
+}
+
+footer p {
+  color: #666;
+}
+@media (max-width: 600px) {
+  main {
+    grid-template-columns: 1fr;
+    padding: 20px 10px;
+    justify-items: stretch;
+    text-align: left;
+  }
+
+  main h2 {
+    grid-column: auto;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .reseñas {
+    max-width: 100%; 
+    padding: 15px;
+    box-shadow: none;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+  }
+
+  nav a {
+    padding: 0.8rem;
+    font-size: 1rem;
+  }
+}
