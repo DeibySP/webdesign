@@ -74,21 +74,6 @@ section {
 section h2 {
   color: white;
 }
-
-.hero {
-  text-align: center;
-}
-
-.hero h2 {
-  font-size: 2rem;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  color: #f8f5f5;
-}
-
 .menu {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

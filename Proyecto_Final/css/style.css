@@ -76,16 +76,16 @@
       margin: auto;
     }
 
-    .hero {
+    .sect {
       text-align: center;
     }
 
-    .hero h2 {
+    .sect h2 {
       font-size: 2rem;
       margin-bottom: 10px;
     }
 
-    .hero p {
+    .sect p {
       font-size: 1.2rem;
       color: #ccc;
     }
