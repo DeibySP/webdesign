@@ -19,5 +19,13 @@ aside{background: red; height: 50px;
 footer{background: grey;height: 100px;grid-column: 1/4;}
 
 @media screen and (max-width:800px){
-    body{display: flex;}
+    body{display: flex; flex-wrap: wrap;}
+    #izq{visibility: unset; border: 3px solid black; height: unset;}
+    header, footer {width: 100%;}
+    main{flex-grow: 3;}
+    aside{flex-grow: 1; min-width: 200px;}
+    nav{visibility: hidden; border: 0;}
+}
+@media screen and (max-width:480px){
+
 }

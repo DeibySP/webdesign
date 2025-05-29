@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0.5rem;
+    margin: 0;
+    font-family: 'montserrat',sans-serif;
+}
+body{
+    background: #000a54;
+    background: linear-gradient(90deg, rgba(0, 10, 84, 1) 0%, rgba(5, 5, 59, 1) 15%, rgba(8, 214, 255, 1) 100%);
+    padding: 1rem;
+}
+header{
+    background: #000a54;
+    background: linear-gradient(90deg, rgba(0, 10, 84, 1) 0%, rgba(5, 5, 59, 1) 15%, rgba(8, 214, 255, 1) 100%);
+    height: 270px;
+    justify-items: center;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px black solid;
+    border-radius: 1rem;
+}
+header img{
+    width: 200px;
+    border-radius: 1rem;
+    border: black solid 3px;
+}
+main{
+    align-items: center;
+    justify-items: center;
+    border: black solid 3px;
+    border-radius: 1rem;
+}
+h2{
+    border: black solid 2px;
+    border-radius: 2rem;
+    background: grey;
+    margin-bottom: 1rem;
+    
+}
+.port{
+    border: none;
+    background: none;
+}
+main a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border: 3px solid black;
+    border-radius: 1rem;
+}
+main a:hover{
+    background: beige;
+}
+main section{
+    border: black solid 2px;
+    border-radius: 2rem;
+    margin: 1rem;
+}
+main section:hover{
+    background: rgb(0, 219, 248);
+    box-shadow: 3px 3px 2px black;
+}
+section{
+    padding: 1rem;
+    margin: 1rem;
+    width: 500px;
+}
+p{
+    margin-bottom: 1rem;
+}
+footer{
+    background: rgb(191, 255, 255);
+    border: solid black 2px;
+    border-radius: 1rem;
+    align-items: center;
+    justify-items: center;
+}
