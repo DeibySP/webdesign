@@ -51,7 +51,8 @@ main {
   padding: 40px 10px;
   justify-items: center;
   text-align: center;
-  background: #222;
+  background: #141414;
+  background: linear-gradient(90deg, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 19%, rgba(56, 54, 54, 1) 100%);
   min-height: 100vh;
   color: white;
 }
