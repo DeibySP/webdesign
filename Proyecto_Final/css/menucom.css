@@ -8,27 +8,27 @@
 header {
   background-color: #22221e;
   padding: 10px 20px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
   border-bottom: 2px solid #444;
-  flex-wrap: nowrap;
-}
-
-header img {
-  height: 60px;
 }
 
 nav {
   display: flex;
+  justify-content: center;
   gap: 30px;
+  background-color: #22221e;
+  padding: 1rem;     
 }
 
 nav a {
   color: #ccc;
+  display: flex;
   text-decoration: none;
-  padding: 0.8rem 1rem;
-  font-weight: bold;
+  padding: 1rem;
+  font-weight: bolder;
+  align-items: center;
 }
 
 nav a:hover {
@@ -37,6 +37,12 @@ nav a:hover {
   border-radius: 1rem;
 }
 
+.logo {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  gap: 10px;
+}
 
 main {
   display: grid;

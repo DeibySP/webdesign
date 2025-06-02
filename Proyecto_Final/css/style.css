@@ -208,7 +208,6 @@
   align-items: center;
   gap: 40px;
   padding: 40px 20px;
-  background-color: #111;
 }
 
 .info-block h2 {
@@ -219,6 +218,9 @@
 .info-block p {
   color: #ccc;
   font-size: 1.2rem;
+}
+article{
+  background: none;
 }
 
 .info-img {
